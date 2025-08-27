@@ -49,6 +49,9 @@
     <Content Include="Game\WanQing_Modifier.sql">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Game\WanQing_Unit.xml">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Lang\In_Game_WanQing.xml">
       <SubType>Content</SubType>
     </Content>

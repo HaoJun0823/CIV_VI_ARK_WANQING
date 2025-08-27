@@ -3,5 +3,79 @@
 <!-- Author: HaoJun0823 -->
 <!-- DateCreated: 8/27/2025 3:16:19 PM -->
 <GameData>
+	<Types>
+		<Row Type="DISTRICT_WANQING_SPECIAL" Kind="KIND_DISTRICT"/>
+	</Types>
+	<!-- 定义农事司区域 -->
+	<Districts>
+		<Row>
+			<DistrictType>DISTRICT_WANQING_SPECIAL</DistrictType>
+			<Name>LOC_DISTRICT_WANQING_SPECIAL_NAME</Name>
+			<Description>LOC_DISTRICT_WANQING_SPECIAL_DESCRIPTION</Description>
+			<PrereqTech>TECH_IRRIGATION</PrereqTech>
+			<Cost>54</Cost>
+			<CostProgressionModel>COST_PROGRESSION_NUM_UNDER_AVG_PLUS_TECH</CostProgressionModel>
+			<CostProgressionParam1>97</CostProgressionParam1>
+			<RequiresPopulation>1</RequiresPopulation>
+			<RequiresPlacement>1</RequiresPlacement>
+			<Maintenance>2</Maintenance>
+			<Appeal>1</Appeal>
+			<Housing>2</Housing>
+			<CitizenSlots>2</CitizenSlots>
+			<OnePerCity>false</OnePerCity>
+			<ZOC>false</ZOC>
+			<CaptureDefenderType>NONE</CaptureDefenderType>
+			<CityStrengthModifier>0</CityStrengthModifier>
+			<HitPoints>0</HitPoints>
+			<PlunderType>PLUNDER_HEAL</PlunderType>
+			<PlunderAmount>100</PlunderAmount>
+			<TradeRouteCapacity>0</TradeRouteCapacity>
+			<AdvisorType>ADVISOR_GENERIC</AdvisorType>
+			<TraitType>TRAIT_DISTRICT_WANQING_SPECIAL</TraitType>
+		</Row>
+	</Districts>
 
+	<District_CitizenYieldChanges>
+
+		<Row DistrictType="DISTRICT_WANQING_SPECIAL" YieldType="YIELD_PRODUCTION" YieldChange="2"/>
+
+
+	</District_CitizenYieldChanges>
+
+	<!-- 定义相邻改良的科学产出 -->
+	<Adjacency_YieldChanges>
+		<Row>
+			<ID>ADJ_WANQING_IMPROVEMENT_SCIENCE</ID>
+			<Description>LOC_ADJ_WANQING_IMPROVEMENT_SCIENCE_DESCRIPTION</Description>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<YieldChange>2</YieldChange>
+			<TilesRequired>1</TilesRequired>
+			<AdjacentImprovement>IMPROVEMENT_FARM</AdjacentImprovement>
+		</Row>
+		<!-- 其他改良如矿山、采石场、种植园 -->
+	</Adjacency_YieldChanges>
+
+	<!-- 定义相邻区域的文化产出 -->
+	<Adjacency_YieldChanges>
+		<Row>
+			<ID>ADJ_WANQING_DISTRICT_CULTURE</ID>
+			<Description>LOC_ADJ_WANQING_DISTRICT_CULTURE_DESCRIPTION</Description>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<YieldChange>2</YieldChange>
+			<TilesRequired>1</TilesRequired>
+			<AdjacentDistrict>DISTRICT_WANQING_SPECIAL</AdjacentDistrict>
+		</Row>
+	</Adjacency_YieldChanges>
+
+	<!-- 绑定到特殊区域 -->
+	<District_Adjacencies>
+		<Row>
+			<DistrictType>DISTRICT_WANQING_SPECIAL</DistrictType>
+			<YieldChangeId>ADJ_WANQING_IMPROVEMENT_SCIENCE</YieldChangeId>
+		</Row>
+		<Row>
+			<DistrictType>DISTRICT_WANQING_SPECIAL</DistrictType>
+			<YieldChangeId>ADJ_WANQING_DISTRICT_CULTURE</YieldChangeId>
+		</Row>
+	</District_Adjacencies>
 </GameData>

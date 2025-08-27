@@ -113,6 +113,9 @@ function WanQingTurn()
         elseif mod == 4 then
             Do_D(mul, pPlayer)
         end
+		--特殊区域增加信仰
+		local citiesCount = pPlayer:GetCities():GetCount();
+		pPlayer:GetReligion():ChangeFaithBalance(citiesCount*mul)
     end
     
     -- 移动力调整

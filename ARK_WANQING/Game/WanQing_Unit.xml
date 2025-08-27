@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- WanQing_Unit -->
+<!-- Author: HaoJun0823 -->
+<!-- DateCreated: 8/27/2025 4:42:57 PM -->
+<GameData>
+		<!-- 定义新单位：实习天师 -->
+		<Types>
+			<Row Type="UNIT_INTERN_TIANSHI" Kind="KIND_UNIT"/>
+		</Types>
+
+	<UnitAiInfos>
+		<Row UnitType="UNIT_INTERN_TIANSHI" AiType="UNITAI_EXPLORE"></Row>
+		<Row UnitType="UNIT_INTERN_TIANSHI" AiType="UNITTYPE_LAND_COMBAT"></Row>
+		<Row UnitType="UNIT_INTERN_TIANSHI" AiType="UNITTYPE_RANGED"></Row>
+	</UnitAiInfos>
+
+	<UnitUpgrades>
+		<Row Unit="UNIT_INTERN_TIANSHI" UpgradeUnit="UNIT_RANGER"></Row>
+	</UnitUpgrades>
+
+		<!-- 单位基本信息 -->
+		<Units>
+			<Row UnitType="UNIT_INTERN_TIANSHI" BaseMoves="3" Cost="30" Maintenance="1" BaseSightRange="3" Combat="15" RangedCombat="10" Range="1" Name="LOC_UNIT_INTERN_TIANSHI_NAME" Description="LOC_UNIT_INTERN_TIANSHI_DESCRIPTION" CanCapture="1" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" PromotionClass="PROMOTION_CLASS_RECON" AdvisorType="ADVISOR_GENERIC" TraitType="TRAIT_UNIT_INTERN_TIANSHI"/>
+		</Units>
+
+		<!-- 单位替代关系：实习天师替代侦察兵 -->
+		<UnitReplaces>
+			<Row CivUniqueUnitType="UNIT_INTERN_TIANSHI" ReplacesUnitType="UNIT_SCOUT"/>
+		</UnitReplaces>
+</GameData>
