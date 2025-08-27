@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Author: HaoJun0823 -->
+<!-- DateCreated: 08/09/25 20:08:59 Sat -->
+<GameData>
+	<Types>
+		<Row Type="LEADER_RANDERION_ARK_WANQING" Kind="KIND_LEADER"/>
+		<Row Type="TRAIT_AGENDA_LEADER_RANDERION_ARK_WANQING" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_LEADER_RANDERION_ARK_WANQING_GLOBAL" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_LEADER_RANDERION_ARK_WANQING" Kind="KIND_TRAIT"/>
+	</Types>
+	<Leaders>
+		<Row LeaderType="LEADER_RANDERION_ARK_WANQING" Name="LOC_LEADER_RANDERION_ARK_WANQING" InheritFrom="LEADER_DEFAULT" Sex="Male"/>
+	</Leaders>
+	<LeaderQuotes>
+		<Row LeaderType="LEADER_RANDERION_ARK_WANQING" Quote="LOC_LEADER_RANDERION_ARK_WANQING_MEETING"/>
+	</LeaderQuotes>
+	<Traits>
+		<Row TraitType="TRAIT_AGENDA_LEADER_RANDERION_ARK_WANQING" Name="LOC_TRAIT_AGENDA_LEADER_RANDERION_ARK_WANQING_NAME" Description="LOC_TRAIT_AGENDA_LEADER_RANDERION_ARK_WANQING_DESCRIPTION"/>
+	</Traits>
+	<Agendas>
+		<Row AgendaType="AGENDA_LEADER_RANDERION_ARK_WANQING" Name="LOC_AGENDA_LEADER_RANDERION_ARK_WANQING_NAME" Description="LOC_AGENDA_LEADER_RANDERION_ARK_WANQING_DESCRIPTION"/>
+	</Agendas>
+	
+	<HistoricalAgendas>
+		<Row LeaderType="LEADER_RANDERION_ARK_WANQING" AgendaType="AGENDA_LEADER_RANDERION_ARK_WANQING"/>
+	</HistoricalAgendas>
+	<AgendaTraits>
+		<Row AgendaType="AGENDA_LEADER_RANDERION_ARK_WANQING" TraitType="TRAIT_AGENDA_LEADER_RANDERION_ARK_WANQING"/>
+	</AgendaTraits>
+	<LoadingInfo>
+		<Row LeaderType="LEADER_RANDERION_ARK_WANQING" ForegroundImage="" BackgroundImage="" PlayDawnOfManAudio="0" EraText="LOC_ERA_" LeaderText="LOC_LOADING_INFO_LEADER_RANDERION_ARK_WANQING_MEETING"/>
+	</LoadingInfo>
+	<DiplomacyInfo>
+		<Row Type="LEADER_RANDERION_ARK_WANQING" BackgroundImage=""/>
+	</DiplomacyInfo>
+</GameData>

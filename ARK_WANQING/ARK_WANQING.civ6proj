@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
+    <Name>ARK WANQING</Name>
+    <Guid>6f8c903a-52ff-4572-9ef6-9db72c06e881</Guid>
+    <ProjectGuid>5dba78a0-2154-4e0b-84e3-4d9b667ea70a</ProjectGuid>
+    <ModVersion>1</ModVersion>
+    <Teaser>This is a brief description of the mod.</Teaser>
+    <Description>This is a brief description of the mod.</Description>
+    <Authors>HaoJun0823</Authors>
+    <SpecialThanks>
+    </SpecialThanks>
+    <AffectsSavedGames>true</AffectsSavedGames>
+    <SupportsSinglePlayer>true</SupportsSinglePlayer>
+    <SupportsMultiplayer>true</SupportsMultiplayer>
+    <SupportsHotSeat>true</SupportsHotSeat>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+    <AssociationData><![CDATA[<Associations>
+  <Reference type="Mod" title="ARKNIGHTS YAN PASS" id="3186591877" />
+</Associations>]]></AssociationData>
+    <AssemblyName>ARK_WANQING</AssemblyName>
+    <RootNamespace>ARK_WANQING</RootNamespace>
+    <FrontEndActionData><![CDATA[<FrontEndActions><UpdateDatabase id="PUD_WANQING" /><UpdateText id="PUL_WANQING" /><UpdateArt id="PUA_WANQING" /><UpdateColors id="PUC_WANQING" /><UpdateIcons id="PUI_WANQING" /><UpdateDatabase id="PUD_SIDE_WANQING_YAN"><Properties><LoadOrder>999</LoadOrder></Properties><File>SideLoad/Yan_Mod.sql</File></UpdateDatabase></FrontEndActions>]]></FrontEndActionData>
+    <InGameActionData><![CDATA[<InGameActions />]]></InGameActionData>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
+    <OutputPath>.</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="ARK_WANQING.Art.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Lang" />
+    <Folder Include="Game" />
+    <Folder Include="SideLoad" />
+    <Folder Include="Pre" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Game\Leader_Data_WanQing.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Game\WanQing_District.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Game\WanQing_Script.lua">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Game\WanQing_Modifier.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Lang\In_Game_WanQing.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Lang\Pre_Game_WanQing.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Pre\Leader_Config_WanQing.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="SideLoad\Yan_Mod.sql">
+      <SubType>Content</SubType>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildLocalExtensionPath)Civ6.targets" />
+</Project>
