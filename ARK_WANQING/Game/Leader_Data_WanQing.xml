@@ -5,19 +5,33 @@
 	<Types>
 		<Row Type="LEADER_RANDERION_ARK_WANQING" Kind="KIND_LEADER"/>
 		<Row Type="TRAIT_AGENDA_LEADER_RANDERION_ARK_WANQING" Kind="KIND_TRAIT"/>
-		<Row Type="TRAIT_LEADER_RANDERION_ARK_WANQING_GLOBAL" Kind="KIND_TRAIT"/>
+		<!--<Row Type="TRAIT_LEADER_RANDERION_ARK_WANQING_GLOBAL" Kind="KIND_TRAIT"/>-->
 		<Row Type="TRAIT_LEADER_RANDERION_ARK_WANQING" Kind="KIND_TRAIT"/>
 		<Row Type="TRAIT_DISTRICT_WANQING_SPECIAL" Kind="KIND_TRAIT"/>
 		<Row Type="TRAIT_UNIT_INTERN_TIANSHI" Kind="KIND_TRAIT"/>
 	</Types>
 	<Leaders>
-		<Row LeaderType="LEADER_RANDERION_ARK_WANQING" Name="LOC_LEADER_RANDERION_ARK_WANQING" InheritFrom="LEADER_DEFAULT" Sex="Male"/>
+		<Row LeaderType="LEADER_RANDERION_ARK_WANQING" Name="LOC_LEADER_RANDERION_ARK_WANQING_NAME" InheritFrom="LEADER_DEFAULT" Sex="Male"/>
 	</Leaders>
 	<LeaderQuotes>
 		<Row LeaderType="LEADER_RANDERION_ARK_WANQING" Quote="LOC_LEADER_RANDERION_ARK_WANQING_MEETING"/>
 	</LeaderQuotes>
+
+	<LeaderTraits>
+
+
+		<Row  LeaderType="LEADER_RANDERION_ARK_WANQING" TraitType="TRAIT_LEADER_RANDERION_ARK_WANQING"/>
+		<Row  LeaderType="LEADER_RANDERION_ARK_WANQING" TraitType="TRAIT_DISTRICT_WANQING_SPECIAL"/>
+		<Row  LeaderType="LEADER_RANDERION_ARK_WANQING" TraitType="TRAIT_UNIT_INTERN_TIANSHI"/>
+		<!--<Row  LeaderType="LEADER_RANDERION_ARK_WANQING" TraitType="TRAIT_LEADER_RANDERION_ARK_WANQING_GLOBAL"/>-->
+	</LeaderTraits>
+
 	<Traits>
 		<Row TraitType="TRAIT_AGENDA_LEADER_RANDERION_ARK_WANQING" Name="LOC_TRAIT_AGENDA_LEADER_RANDERION_ARK_WANQING_NAME" Description="LOC_TRAIT_AGENDA_LEADER_RANDERION_ARK_WANQING_DESCRIPTION"/>
+		<!--<Row TraitType="TRAIT_LEADER_RANDERION_ARK_WANQING_GLOBAL" Name="LOC_TRAIT_LEADER_RANDERION_ARK_WANQING_GLOBAL_NAME" Description="LOC_TRAIT_LEADER_RANDERION_ARK_WANQING_GLOBAL_DESCRIPTION"/>-->
+		<Row TraitType="TRAIT_LEADER_RANDERION_ARK_WANQING" Name="LOC_TRAIT_LEADER_RANDERION_ARK_WANQING_NAME" Description="LOC_TRAIT_LEADER_RANDERION_ARK_WANQING_DESCRIPTION"/>
+		<Row TraitType="TRAIT_UNIT_INTERN_TIANSHI" Name="LOC_UNIT_INTERN_TIANSHI_NAME" Description="LOC_UNIT_INTERN_TIANSHI_DESCRIPTION"/>
+		<Row TraitType="TRAIT_DISTRICT_WANQING_SPECIAL" Name="LOC_DISTRICT_WANQING_SPECIAL_NAME" Description="LOC_DISTRICT_WANQING_SPECIAL_DESCRIPTION"/>
 	</Traits>
 	<Agendas>
 		<Row AgendaType="AGENDA_LEADER_RANDERION_ARK_WANQING" Name="LOC_AGENDA_LEADER_RANDERION_ARK_WANQING_NAME" Description="LOC_AGENDA_LEADER_RANDERION_ARK_WANQING_DESCRIPTION"/>
@@ -30,9 +44,77 @@
 		<Row AgendaType="AGENDA_LEADER_RANDERION_ARK_WANQING" TraitType="TRAIT_AGENDA_LEADER_RANDERION_ARK_WANQING"/>
 	</AgendaTraits>
 	<LoadingInfo>
-		<Row LeaderType="LEADER_RANDERION_ARK_WANQING" ForegroundImage="" BackgroundImage="" PlayDawnOfManAudio="0" EraText="LOC_ERA_" LeaderText="LOC_LOADING_INFO_LEADER_RANDERION_ARK_WANQING_MEETING"/>
+		<Row LeaderType="LEADER_RANDERION_ARK_WANQING" ForegroundImage="LEADER_WANQING_LOADING" PlayDawnOfManAudio="0" LeaderText="LOC_LOADING_INFO_LEADER_RANDERION_ARK_WANQING_MEETING"/>
 	</LoadingInfo>
-	<DiplomacyInfo>
+	<!--<DiplomacyInfo>
 		<Row Type="LEADER_RANDERION_ARK_WANQING" BackgroundImage=""/>
-	</DiplomacyInfo>
+	</DiplomacyInfo>-->
+
+
+	<CivilizationLeaders>
+	<Row CivilizationType="CIVILIZATION_CHINA" LeaderType="LEADER_RANDERION_ARK_WANQING" CapitalName="LOC_CITY_NAME_ARK_WANQING_REAL_CAPITAL"/>
+	</CivilizationLeaders>
+
+
+	<MomentIllustrations>
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_DISTRICT" MomentDataType="MOMENT_DATA_DISTRICT" GameDataType="DISTRICT_WANQING_SPECIAL" Texture="MOMENT_WANQING_D"/>
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_UNIT" MomentDataType="MOMENT_DATA_UNIT" GameDataType="UNIT_INTERN_TIANSHI" Texture="MOMENT_WANQING_U"/>
+	</MomentIllustrations>
+
+
+	<TraitModifiers>
+		<Row TraitType="TRAIT_AGENDA_LEADER_RANDERION_ARK_WANQING" ModifierId="RANDERION_FOOD_LOVER_LIKES"/>
+		<Row TraitType="TRAIT_AGENDA_LEADER_RANDERION_ARK_WANQING" ModifierId="RANDERION_FOOD_LOVER_DISLIKES"/>
+	</TraitModifiers>
+
+	<Modifiers>
+		<Row>
+			<ModifierId>RANDERION_FOOD_LOVER_LIKES</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DIPLOMACY_SIMPLE_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_HAS_HIGH_FOOD_YIELD</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>RANDERION_FOOD_LOVER_DISLIKES</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DIPLOMACY_SIMPLE_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_HAS_LOW_FOOD_YIELD</SubjectRequirementSetId>
+		</Row>
+	</Modifiers>
+
+	<ModifierArguments>
+		<Row ModifierId="RANDERION_FOOD_LOVER_LIKES" Name="InitialValue" Value="7"/>
+		<Row ModifierId="RANDERION_FOOD_LOVER_LIKES" Name="StatementKey" Value="LOC_DIPLOMACY_RANDERION_FOOD_LIKES"/>
+		<Row ModifierId="RANDERION_FOOD_LOVER_LIKES" Name="SimpleModifierDescription" Value="LOC_DIPLOMACY_RANDERION_FOOD_LIKES_DESCRIPTION"/>
+
+		<Row ModifierId="RANDERION_FOOD_LOVER_DISLIKES" Name="InitialValue" Value="-7"/>
+		<Row ModifierId="RANDERION_FOOD_LOVER_DISLIKES" Name="StatementKey" Value="LOC_DIPLOMACY_RANDERION_FOOD_DISLIKES"/>
+		<Row ModifierId="RANDERION_FOOD_LOVER_DISLIKES" Name="SimpleModifierDescription" Value="LOC_DIPLOMACY_RANDERION_FOOD_DISLIKES_DESCRIPTION"/>
+	</ModifierArguments>
+
+	<RequirementSets>
+		<Row>
+			<RequirementSetId>PLAYER_HAS_HIGH_FOOD_YIELD</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_HAS_LOW_FOOD_YIELD</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+	</RequirementSets>
+
+	<RequirementSetRequirements>
+		<Row RequirementSetId="PLAYER_HAS_HIGH_FOOD_YIELD" RequirementId="REQUIRES_RANDERION_MOST_FOOD"/>
+		<Row RequirementSetId="PLAYER_HAS_LOW_FOOD_YIELD" RequirementId="REQUIRES_RANDERION_LEAST_FOOD"/>
+	</RequirementSetRequirements>
+
+	<Requirements>
+		<Row>
+			<RequirementId>REQUIRES_RANDERION_MOST_FOOD</RequirementId>
+			<RequirementType>REQUIREMENT_PLAYER_YIELD_RANK_COMPARED</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_RANDERION_LEAST_FOOD</RequirementId>
+			<RequirementType>REQUIREMENT_PLAYER_YIELD_RANK_COMPARED</RequirementType>
+		</Row>
+	</Requirements>
+
 </GameData>

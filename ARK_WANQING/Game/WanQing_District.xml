@@ -13,28 +13,44 @@
 			<Name>LOC_DISTRICT_WANQING_SPECIAL_NAME</Name>
 			<Description>LOC_DISTRICT_WANQING_SPECIAL_DESCRIPTION</Description>
 			<PrereqTech>TECH_IRRIGATION</PrereqTech>
+			<AdvisorType>ADVISOR_GENERIC</AdvisorType>
+			<TraitType>TRAIT_DISTRICT_WANQING_SPECIAL</TraitType>
+
 			<Cost>54</Cost>
 			<CostProgressionModel>COST_PROGRESSION_NUM_UNDER_AVG_PLUS_TECH</CostProgressionModel>
 			<CostProgressionParam1>97</CostProgressionParam1>
+			<Maintenance>2</Maintenance>
 			<RequiresPopulation>1</RequiresPopulation>
 			<RequiresPlacement>1</RequiresPlacement>
-			<Maintenance>2</Maintenance>
-			<Appeal>1</Appeal>
+			<NoAdjacentCity>0</NoAdjacentCity>
+			<Aqueduct>0</Aqueduct>
+			<InternalOnly>0</InternalOnly>
+			<CityCenter>0</CityCenter>
+			<OnePerCity>1</OnePerCity>
 			<Housing>2</Housing>
+			<Appeal>1</Appeal>
 			<CitizenSlots>2</CitizenSlots>
-			<OnePerCity>false</OnePerCity>
-			<ZOC>false</ZOC>
-			<CaptureDefenderType>NONE</CaptureDefenderType>
-			<CityStrengthModifier>0</CityStrengthModifier>
+			<Entertainment>0</Entertainment>
+
+			<ZOC>0</ZOC>
 			<HitPoints>0</HitPoints>
+			<CityStrengthModifier>0</CityStrengthModifier>
+			<MilitaryDomain>NO_DOMAIN</MilitaryDomain>
+			<CaptureRemovesBuildings>1</CaptureRemovesBuildings>
+			<CaptureRemovesCityDefenses>0</CaptureRemovesCityDefenses>
 			<PlunderType>PLUNDER_HEAL</PlunderType>
 			<PlunderAmount>100</PlunderAmount>
-			<TradeRouteCapacity>0</TradeRouteCapacity>
-			<AdvisorType>ADVISOR_GENERIC</AdvisorType>
-			<TraitType>TRAIT_DISTRICT_WANQING_SPECIAL</TraitType>
+
+			<Coast>0</Coast>
+			<FreeEmbark>0</FreeEmbark>
+			<TradeEmbark>0</TradeEmbark>
+			<AllowsHolyCity>0</AllowsHolyCity>
+			<AirSlots>0</AirSlots>
+			<AdjacentToLand>0</AdjacentToLand>
+			<CanAttack>0</CanAttack>
 		</Row>
 	</Districts>
-
+	
 	<District_CitizenYieldChanges>
 
 		<Row DistrictType="DISTRICT_WANQING_SPECIAL" YieldType="YIELD_PRODUCTION" YieldChange="2"/>
@@ -48,7 +64,7 @@
 			<ID>ADJ_WANQING_IMPROVEMENT_SCIENCE</ID>
 			<Description>LOC_ADJ_WANQING_IMPROVEMENT_SCIENCE_DESCRIPTION</Description>
 			<YieldType>YIELD_SCIENCE</YieldType>
-			<YieldChange>2</YieldChange>
+			<YieldChange>4</YieldChange>
 			<TilesRequired>1</TilesRequired>
 			<AdjacentImprovement>IMPROVEMENT_FARM</AdjacentImprovement>
 		</Row>
@@ -61,7 +77,7 @@
 			<ID>ADJ_WANQING_DISTRICT_CULTURE</ID>
 			<Description>LOC_ADJ_WANQING_DISTRICT_CULTURE_DESCRIPTION</Description>
 			<YieldType>YIELD_CULTURE</YieldType>
-			<YieldChange>2</YieldChange>
+			<YieldChange>5</YieldChange>
 			<TilesRequired>1</TilesRequired>
 			<AdjacentDistrict>DISTRICT_WANQING_SPECIAL</AdjacentDistrict>
 		</Row>

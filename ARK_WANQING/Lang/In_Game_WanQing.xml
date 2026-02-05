@@ -4,4 +4,487 @@
 <!-- DateCreated: 8/9/2025 7:12:20 PM -->
 <GameData>
 
+
+	<LocalizedText>
+
+		<Row Tag="LOC_CITY_NAME_ARK_WANQING_REAL_CAPITAL" Language="zh_Hans_CN">
+			<Text>万顷</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLOMACY_RANDERION_FOOD_LIKES" Language="zh_Hans_CN">
+			<Text>丰衣食足</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLOMACY_RANDERION_FOOD_DISLIKES" Language="zh_Hans_CN">
+			<Text>饥寒交迫</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLOMACY_RANDERION_FOOD_LIKES_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>万顷的食物加成实在是太有用了！</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLOMACY_RANDERION_FOOD_DISLIKES_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>什么？！万顷的食物加成都不能让你的人民吃上饭？！</Text>
+		</Row>
+
+		<Row Tag="LOC_LEADER_RANDERION_ARK_WANQING_MEETING" Language="zh_Hans_CN">
+			<Text>起风了......</Text>
+		</Row>
+
+		<Row Tag="LOC_AGENDA_LEADER_RANDERION_ARK_WANQING_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>“我曾经试着坚持不吃东西，结果在第四天的时候昏了过去。但是老师说，真正的饥饿不是这样。我没有常年吃不饱饭的经历，所以不可能体会。希望有一天，没有人知道那是什么感觉。”</Text>
+		</Row>
+
+		<Row Tag="LOC_AGENDA_LEADER_RANDERION_ARK_WANQING_NAME" Language="zh_Hans_CN">
+			<Text>让所有人都吃饱饭！</Text>
+		</Row>
+
+		<Row Tag="LOC_LOADING_INFO_LEADER_RANDERION_ARK_WANQING_MEETING" Language="zh_Hans_CN">
+			<Text>“禾生——”[NEWLINE]禾生从土坡上蹿起来，回头张望。他起得急，线轴落进水里，剪尾羽兽模样的纸风筝眨眼就变成白色天光下的一个小点，沿着河流消失在他眼前。[NEWLINE]禾生自己就是被这条河卷来大荒城的。要不是那阵迎着岸的强风，要不是正在田里扛沙袋的职农眼尖心细，一个不到两岁的孩子必定凶多吉少。天师和职农就他的安置问题通宵开会，请示户部，也直接向上游派了信使。但这一年，北方大旱之后又有洪泛，南方的天灾也闹得凶，为他寻亲终究是没有结果。[NEWLINE]从此，禾生就叫禾生，就生在大荒城。[NEWLINE]禾生在田垄上长大，在水泵旁长大，在移动大棚的框架上长大，在天师的宿舍和职农的院落中长大，在人工水渠之间的检修通道上长大。他记得黍天师给和他差不多大的孩子们看手相，然后把酒浆点上他们的额头；他记得他和小满并肩坐在牧兽背上，眺望小山般的仓储舰缓缓驶入航道，前往百灶、尚蜀，或者北方的丹燕；他还记得有一回，一块糖料作物试验田发生了自燃，大荒城足有一个月都笼罩在煮沸的麦芽糖般的甜腻香气里。[NEWLINE]禾生揉揉眼睛，他望见了，那些他从小就认识的老职农向他奔来。“考校通过咯，”他们喊着禾生的名字，满脸喜色，“考校通过咯，黍天师要收你当徒弟咯。”在他们的身后，一头小牧兽慢悠悠地咀嚼着新草，背上拴着一把崭新的铁尺，还有一只银色的风筝。强风将他推向人群，铃铛在开辟天地的呼啸中丁零作响。[NEWLINE]他跳下土坡，在乙未号地块的水渠边奔跑起来，牵着一束银色的风。</Text>
+		</Row>
+
+
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_RANDERION_ARK_WANQING_ANY" Language="zh_Hans_CN">
+			<Text>真的吗？能得到您的认可，我……非常开心。既然已经交换了“访学证明”，那以后不管遇到多大的风雨，我也一定会和您一起站在这片田地前的。</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_RANDERION_ARK_WANQING_ANY" Language="zh_Hans_CN">
+			<Text>没关系的，重新来过吧。就像实验结果出现误差一样，我还没能给出让您满意的结论……我会继续专心求索，直到这一份“同行”的诚意生根发芽。</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_RANDERION_ARK_WANQING_ANY" Language="zh_Hans_CN">
+			<Text>我观察了很久，您这里的土地并没有被抛荒，大家也不怎么剩饭……所以我想，我们走的是同一条路，对吗？</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_RANDERION_ARK_WANQING_ANY" Language="zh_Hans_CN">
+			<Text>这种被信赖的感觉……就像种子找到了起风的地方。我会努力守好这份友谊，绝不会让信任我的同伴挨饿的。</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_RANDERION_ARK_WANQING_ANY" Language="zh_Hans_CN">
+			<Text>很抱歉，目前的初步环境勘测显示，我们之间还存在一些……“疏漏”。为了不产生错误的实验结论，我必须先拒绝您。</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_RANDERION_ARK_WANQING_ANY" Language="zh_Hans_CN">
+			<Text>您竟然……践踏了大家辛苦种下的耕地？既然您执意要破坏这份薪火相传的理想，那天师府的学生，也绝对不会退缩！</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_RANDERION_ARK_WANQING_ANY" Language="zh_Hans_CN">
+			<Text>虽然我不擅长战斗，但为了身后的土地和挨饿的人们……确认区域无危险之前，我会一直守在这里！</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_RANDERION_ARK_WANQING_ANY" Language="zh_Hans_CN">
+			<Text>土地还在，希望就还在。希望后来人能跟上脚步，把这些种子带到能生根发芽的地方去吧。</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_HUMAN_LEADER_RANDERION_ARK_WANQING_ANY" Language="zh_Hans_CN">
+			<Text>哪怕我倒下了，只要千万人的汗水能浇灌出一个结果就好……我不必是那个看到丰收的人，我知道有人会走下去……</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_RANDERION_ARK_WANQING_ANY" Language="zh_Hans_CN">
+			<Text>欢迎来到我们的营地。这些是刚采摘的蔬果，口感比外面要好很多，虽然我做不了大规模贸易的主，但请大家吃顿饱饭还是没问题的。</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_RANDERION_ARK_WANQING_ANY" Language="zh_Hans_CN">
+			<Text>抱歉，现在的存粮还没法招待太多的客人。而且……老师之前说，随意接受外人的东西很容易被带上半空，一定要稳住重心才行。</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_RANDERION_ARK_WANQING_ANY" Language="zh_Hans_CN">
+			<Text>我派人带了一些大荒城的实验种子和分类好的资料过去。如果您不介意，能让我们在那边进行一些细致化系统的搭建吗？</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_RANDERION_ARK_WANQING_ANY" Language="zh_Hans_CN">
+			<Text>您的行为已经导致了严重的“环境误差”！无视民生疾苦、纵容浪费……这种错误的结果，我绝对无法认同！</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_RANDERION_ARK_WANQING_ANY" Language="zh_Hans_CN">
+			<Text>谁——啊，抱歉，是您在说话吗？如果您认为我的理想只是一种偏执，那我也只能继续“专心求索”了。</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_RANDERION_ARK_WANQING_ANY" Language="zh_Hans_CN">
+			<Text>您好，我是万顷。名字是老师从实验稻品种里选的……虽然我只是个平凡的职农，但我会为了让更多人活下去而努力，请多指教。</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_RANDERION_ARK_WANQING_ANY" Language="zh_Hans_CN">
+			<Text>初次见面，您的领地看起来治理得井井有条。如果您有空的话，我很乐意邀请您来做客，聊聊那些让万世受惠的理想。</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_RANDERION_ARK_WANQING_ANY" Language="zh_Hans_CN">
+			<Text>我们的领地挨在一起，就像两块相邻的试验田。只要避开天灾的路径，相互扶持，一定能种出健康的作物的。</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_GREETING_LEADER_RANDERION_ARK_WANQING_ANY" Language="zh_Hans_CN">
+			<Text>您好，今天云高天晴，是个适合下地观察的好日子。有什么文件需要我帮您整理吗？</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_RANDERION_ARK_WANQING_ANY" Language="zh_Hans_CN">
+			<Text>看到这里的每个人都在为了让大地上的难民活下去而努力，我觉得……我们走的是同一条路。</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_LEADER_RANDERION_ARK_WANQING_REASON_ANY" Language="zh_Hans_CN">
+			<Text>您对土地的珍惜和对“不浪费”的坚持让我很感动。这可比天师府的任何访学证明都要珍贵。</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_EXIT_LEADER_RANDERION_ARK_WANQING_ANY" Language="zh_Hans_CN">
+			<Text>有些事情……我觉得您做得确实不太妥当。虽然我不该多嘴，但如果脱离了为民的初心，那所学还有什么意义呢？</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_LEADER_RANDERION_ARK_WANQING_REASON_ANY" Language="zh_Hans_CN">
+			<Text>如果您继续无视民生的饥饿，那我们之间的分歧将比大荒城与外界的沟壑还要深。</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_RANDERION_ARK_WANQING_ANY" Language="zh_Hans_CN">
+			<Text>同盟吗？好的！我会作为顾问提供后勤和试验田支持，只要大家能团结一心，就没有跨不过去的荒季。</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_RANDERION_ARK_WANQING_ANY" Language="zh_Hans_CN">
+			<Text>和平如甘霖……太好了。请务必注意脚下，别再踩坏那些新长的秧苗了。我们要把时间花在更有意义的耕作上。</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_RANDERION_ARK_WANQING_ANY" Language="zh_Hans_CN">
+			<Text>如果现在停手，之前的努力就会产生误差。为了大家能彻底不再受难，我必须坚持到底。</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_RANDERION_ARK_WANQING_ANY" Language="zh_Hans_CN">
+			<Text>不要再打仗了，好吗？成功往往是上千次失败堆出来的，而战争只会带走种子，什么也留不下。我们换一种方式解决问题吧？</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_RANDERION_ARK_WANQING_ANY" Language="zh_Hans_CN">
+			<Text>您可以从这里经过，我已经贴好了导向标签。但请记得，“脚步轻些”，不要惊扰了正在灌浆的庄稼。</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_RANDERION_ARK_WANQING_ANY" Language="zh_Hans_CN">
+			<Text>抱歉，现在的环境极其复杂，为了不让您的部队迷失方向，也为了不影响我们的耕种，请绕行吧。</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_RANDERION_ARK_WANQING_ANY" Language="zh_Hans_CN">
+			<Text>我们正在寻找风起的地方去撒播种子，路过您的领地时绝对不会乱踩乱动的，可以通融一下吗？</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_RANDERION_ARK_WANQING_ANY" Language="zh_Hans_CN">
+			<Text>军队规模并不是决定一切的标准。只要下盘扎稳、重心够稳，即便面对狂风，我们也能守住自己的土地。</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_RANDERION_ARK_WANQING_ANY" Language="zh_Hans_CN">
+			<Text>这是互利互惠的提议吗？只要是为了让更多人活下去，天师府的学生很乐意支持这样的方案。</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_RANDERION_ARK_WANQING_ANY" Language="zh_Hans_CN">
+			<Text>抱歉……我咨询了老师，这笔交易的风险和回报不成比例，可能会对我们的生存造成误差，我不能答应。</Text>
+		</Row>		
+		
+
+	</LocalizedText>
+
+
+
+
+
+	<LocalizedText>
+
+		<Row Tag="LOC_CITY_NAME_ARK_WANQING_REAL_CAPITAL" Language="zh_Hant_HK">
+			<Text>萬頃</Text>
+		</Row>
+
+		<Row Tag="LOC_LEADER_RANDERION_ARK_WANQING_MEETING" Language="zh_Hant_HK">
+			<Text>起風了......</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLOMACY_RANDERION_FOOD_LIKES" Language="zh_Hant_HK">
+			<Text>豐衣足食</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLOMACY_RANDERION_FOOD_DISLIKES" Language="zh_Hant_HK">
+			<Text>飢寒交迫</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLOMACY_RANDERION_FOOD_LIKES_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>萬頃的食物加成實在是太有用了！</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLOMACY_RANDERION_FOOD_DISLIKES_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>什麼？！萬頃的食物加成都不能讓你的人民吃上飯？！</Text>
+		</Row>
+
+		<Row Tag="LOC_AGENDA_LEADER_RANDERION_ARK_WANQING_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>「我曾經試著堅持不吃東西，結果在第四天的時候昏了過去。但是老師說，真正的飢餓不是這樣。我沒有常年吃不飽飯的經歷，所以不可能體會。希望有一天，沒有人知道那是什麼感覺。」</Text>
+		</Row>
+
+		<Row Tag="LOC_AGENDA_LEADER_RANDERION_ARK_WANQING_NAME" Language="zh_Hant_HK">
+			<Text>讓所有人都吃飽飯！</Text>
+		</Row>
+
+		<Row Tag="LOC_LOADING_INFO_LEADER_RANDERION_ARK_WANQING_MEETING" Language="zh_Hant_HK">
+			<Text>「禾生——」[NEWLINE]禾生從土坡上躥起來，回頭張望。他起得急，線軸落進水裏，剪尾羽獸模樣的紙風箏眨眼就變成白色天光下的一個小點，沿着河流消失在他眼前。[NEWLINE]禾生自己就是被這條河捲來大荒城的。要不是那陣迎著岸的強風，要不是正在田裏扛沙袋的職農眼尖心細，一個不到兩歲的孩子必定凶多吉少。天師和職農就他的安置問題通宵開會，請示戶部，也直接向上游派了信使。但這一年，北方大旱之後又有洪泛，南方的天災也鬧得凶，為他尋親終究是沒有結果。[NEWLINE]從此，禾生就叫禾生，就生在大荒城。[NEWLINE]禾生在田壟上長大，在水泵旁長大，在移動大棚的框架上長大，在天師的宿舍和職農的院落中長大，在人工水渠之間的檢修通道上長大。他記得黍天師給和他差不多大的孩子們看手相，然後把酒漿點上他們的額頭；他記得他和小滿並肩坐在牧獸背上，眺望小山般的倉儲艦緩緩駛入航道，前往百灶、尚蜀，或者北方的丹燕；他還記得有一回，一塊糖料作物試驗田發生了自燃，大荒城足有一個月都籠罩在煮沸的麥芽糖般的甜膩香氣裏。[NEWLINE]禾生揉揉眼睛，他望見了，那些他從小就認識的老職農向他奔來。「考校通過囉，」他們喊著禾生的名字，滿臉喜色，「考校通過囉，黍天師要收你當徒弟囉。」在他們的身後，一頭小牧獸慢悠悠地咀嚼著新草，背上拴着一把嶄新的鐵尺，還有一隻銀色的風箏。強風將他推向人群，鈴鐺在開闢天地的呼嘯中叮零作響。[NEWLINE]他跳下土坡，在乙未號地塊的水渠邊奔跑起來，牽著一束銀色的風。</Text>
+		</Row>
+
+
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_RANDERION_ARK_WANQING_ANY" Language="zh_Hant_HK">
+			<Text>真的嗎？能得到您的認可，我……非常開心。既然已經交換了「訪學證明」，那以後不管遇到多大的風雨，我也一定會和您一起站在這片田地前的。</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_RANDERION_ARK_WANQING_ANY" Language="zh_Hant_HK">
+			<Text>沒關係的，重新來過吧。就像實驗結果出現誤差一樣，我還沒能給出讓您滿意的結論……我會繼續專心求索，直到這一份「同行」的誠意生根發芽。</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_RANDERION_ARK_WANQING_ANY" Language="zh_Hant_HK">
+			<Text>我觀察了很久，您這裡的土地並沒有被拋荒，大家也不怎麼剩飯……所以我想，我們走的是同一條路，對嗎？</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_RANDERION_ARK_WANQING_ANY" Language="zh_Hant_HK">
+			<Text>這種被信賴的感覺……就像種子找到了起風的地方。我會努力守好這份友誼，絕不會讓信任我的同伴挨餓的。</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_RANDERION_ARK_WANQING_ANY" Language="zh_Hant_HK">
+			<Text>很抱歉，目前的初步環境勘測顯示，我們之間還存在一些……「疏漏」。為了不產生錯誤的實驗結論，我必須先拒絕您。</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_RANDERION_ARK_WANQING_ANY" Language="zh_Hant_HK">
+			<Text>您竟然……踐踏了大家辛苦種下的耕地？既然您執意要破壞這份薪火相傳的理想，那天師府的學生，也絕對不會退縮！</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_RANDERION_ARK_WANQING_ANY" Language="zh_Hant_HK">
+			<Text>雖然我不擅長戰鬥，但為了身後的土地和挨餓的人們……確認區域無危險之前，我會一直守在這裡！</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_RANDERION_ARK_WANQING_ANY" Language="zh_Hant_HK">
+			<Text>土地還在，希望就還在。希望後來人能跟上腳步，把這些種子帶到能生根發芽的地方去吧。</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_HUMAN_LEADER_RANDERION_ARK_WANQING_ANY" Language="zh_Hant_HK">
+			<Text>哪怕我倒下了，只要千萬人的汗水能澆灌出一個結果就好……我不必是那個看到豐收的人，我知道有人會走下去……</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_RANDERION_ARK_WANQING_ANY" Language="zh_Hant_HK">
+			<Text>歡迎來到我們的營地。這些是剛採摘的蔬果，口感比外面要好很多，雖然我作不了大規模貿易的主，但請大家吃頓飽飯還是沒問題的。</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_RANDERION_ARK_WANQING_ANY" Language="zh_Hant_HK">
+			<Text>抱歉，現在的存糧還沒法招待太多的客人。而且……老師之前說，隨意接受外人的東西很容易被帶上半空，一定要穩住重心才行。</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_RANDERION_ARK_WANQING_ANY" Language="zh_Hant_HK">
+			<Text>我派人帶了一些大荒城的實驗種子和分類好的資料過去。如果您不介意，能讓我們在那邊進行一些細緻化系統的搭建嗎？</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_RANDERION_ARK_WANQING_ANY" Language="zh_Hant_HK">
+			<Text>您的行為已經導致了嚴重的「環境誤差」！無視民生疾苦、縱容浪費……這種錯誤的結果，我絕對無法認同！</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_RANDERION_ARK_WANQING_ANY" Language="zh_Hant_HK">
+			<Text>誰——啊，抱歉，是您在說話嗎？如果您認為我的理想只是一種偏執，那我也只能繼續「專心求索」了。</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_RANDERION_ARK_WANQING_ANY" Language="zh_Hant_HK">
+			<Text>您好，我是萬頃。名字是老師從實驗稻品種裏選的……雖然我只是個平凡的職農，但我會為了讓更多人活下去而努力，請多指教。</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_RANDERION_ARK_WANQING_ANY" Language="zh_Hant_HK">
+			<Text>初次見面，您的領地看起來治理得井井有條。如果您有空的話，我很樂意邀請您來做客，聊聊那些讓萬世受惠的理想。</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_RANDERION_ARK_WANQING_ANY" Language="zh_Hant_HK">
+			<Text>我們的領地挨在一起，就像兩塊相鄰的試驗田。只要避開天災的路徑，相互扶持，一定能種出健康的作物的。</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_GREETING_LEADER_RANDERION_ARK_WANQING_ANY" Language="zh_Hant_HK">
+			<Text>您好，今天雲高天晴，是個適合下地觀察的好日子。有什麼文件需要我幫您整理嗎？</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_RANDERION_ARK_WANQING_ANY" Language="zh_Hant_HK">
+			<Text>看到這裡的每個人都在為了讓大地上的難民活下去而努力，我覺得……我們走的是同一條路。</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_LEADER_RANDERION_ARK_WANQING_REASON_ANY" Language="zh_Hant_HK">
+			<Text>您對土地的珍惜和對「不浪費」的堅持讓我很感動。這可比天師府的任何訪學證明都要珍貴。</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_EXIT_LEADER_RANDERION_ARK_WANQING_ANY" Language="zh_Hant_HK">
+			<Text>有些事情……我覺得您做得確實不太妥當。雖然我不該多嘴，但如果脫離了為民的初心，那所學還有什麼意義呢？</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_LEADER_RANDERION_ARK_WANQING_REASON_ANY" Language="zh_Hant_HK">
+			<Text>如果您繼續無視民生的飢餓，那我們之間的分歧將比大荒城與外界的溝壑還要深。</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_RANDERION_ARK_WANQING_ANY" Language="zh_Hant_HK">
+			<Text>同盟嗎？好的！我會作為顧問提供後勤和試驗田支持，只要大家能團結一心，就沒有跨不過去的荒季。</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_RANDERION_ARK_WANQING_ANY" Language="zh_Hant_HK">
+			<Text>和平如甘霖……太好了。請務必注意腳下，別再踩壞那些新長的秧苗了。我們要把時間花在更有意義的耕作上。</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_RANDERION_ARK_WANQING_ANY" Language="zh_Hant_HK">
+			<Text>如果現在停手，之前的努力就會產生誤差。為了大家能徹底不再受難，我必須堅持到底。</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_RANDERION_ARK_WANQING_ANY" Language="zh_Hant_HK">
+			<Text>不要再打仗了，好嗎？成功往往是上千次失敗堆出來的，而戰爭只會帶走種子，什麼也留不下。我們換一種方式解決問題吧？</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_RANDERION_ARK_WANQING_ANY" Language="zh_Hant_HK">
+			<Text>您可以從這裡經過，我已經貼好了導向標籤。但請記得，「腳步輕些」，不要驚擾了正在灌漿的莊稼。</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_RANDERION_ARK_WANQING_ANY" Language="zh_Hant_HK">
+			<Text>抱歉，現在的環境極其複雜，為了不讓您的部隊迷失方向，也為了不影響我們的耕種，請繞行吧。</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_RANDERION_ARK_WANQING_ANY" Language="zh_Hant_HK">
+			<Text>我們正在尋找風起的地方去撒播種子，路過您的領地時絕對不會亂踩亂動的，可以通融一下嗎？</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_RANDERION_ARK_WANQING_ANY" Language="zh_Hant_HK">
+			<Text>軍隊規模並不是決定一切的標準。只要下盤紮穩、重心夠穩，即便面對狂風，我們也能守住自己的土地。</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_RANDERION_ARK_WANQING_ANY" Language="zh_Hant_HK">
+			<Text>這是互利互惠的提議嗎？只要是為了讓更多人活下去，天師府的學生很樂意支持這樣的方案。</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_RANDERION_ARK_WANQING_ANY" Language="zh_Hant_HK">
+			<Text>抱歉……我諮詢了老師，這筆交易的風險和回報不成比例，可能會對我們的生存造成誤差，我不能答應。</Text>
+		</Row>
+
+	</LocalizedText>
+
+
+
+
+	<BaseGameText>
+
+		<Row Tag="LOC_CITY_NAME_ARK_WANQING_REAL_CAPITAL">
+			<Text>Wanqing</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLOMACY_RANDERION_FOOD_LIKES">
+			<Text>Abundant Food and Clothing</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLOMACY_RANDERION_FOOD_DISLIKES">
+			<Text>Hunger and Cold</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLOMACY_RANDERION_FOOD_LIKES_DESCRIPTION">
+			<Text>Wanqing's food bonuses are incredibly useful!</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLOMACY_RANDERION_FOOD_DISLIKES_DESCRIPTION">
+			<Text>What?! Even with Wanqing's food bonuses, you still can't feed your people?!</Text>
+		</Row>
+
+		<Row Tag="LOC_AGENDA_LEADER_RANDERION_ARK_WANQING_DESCRIPTION">
+			<Text>"I once tried to go without food, and I fainted on the fourth day. But Teacher said true hunger isn't like that. I haven't experienced chronic starvation, so it's impossible for me to truly understand. I hope that one day, no one will ever know what that feels like."</Text>
+		</Row>
+
+		<Row Tag="LOC_AGENDA_LEADER_RANDERION_ARK_WANQING_NAME">
+			<Text>Let Everyone Be Fed!</Text>
+		</Row>
+
+		<Row Tag="LOC_LEADER_RANDERION_ARK_WANQING_MEETING"">
+			<Text>The wind is rising...</Text>
+		</Row>
+
+		<Row Tag="LOC_LOADING_INFO_LEADER_RANDERION_ARK_WANQING_MEETING">
+			<Text>"He Sheng—"[NEWLINE]He Sheng sprang up from the earthen slope and looked back. Rising in a hurry, his spool fell into the water, and the paper kite shaped like a Scissor-tailed Featherbeast vanished into the white sky like a tiny speck along the river.[NEWLINE]He Sheng himself was washed into Dahuang City by this very river. Had it not been for that strong onshore wind, and had the agricultural technician carrying sandbags in the fields not been so sharp-eyed, a child less than two years old would have surely perished. The Tianshi and technicians held overnight meetings regarding his placement, consulted the Ministry of Revenue, and sent messengers upstream. But that year, severe floods followed a great drought in the north, and natural disasters plagued the south; the search for his kin yielded nothing.[NEWLINE]From then on, He Sheng was named He Sheng, born and raised in Dahuang City.[NEWLINE]He Sheng grew up on the ridges of fields, by water pumps, on the frames of mobile greenhouses, in the dormitories of Tianshis and the courtyards of technicians, and along the maintenance paths between artificial canals. He remembers Tianshi Shu reading the palms of children his age and dabbing wine on their foreheads; he remembers sitting side-by-side with Xiaoman on the back of a herding beast, watching mountain-like storage ships slowly enter the channel toward Baizao, Shangshu, or Danyan in the north. He also remembers a time when a test field of sugar crops spontaneously combusted, and for a whole month, Dahuang City was shrouded in the sweet, cloying aroma of boiling maltose.[NEWLINE]He Sheng rubbed his eyes and saw them—the old technicians he had known since childhood running toward him. "You passed the examination!" they shouted his name with joy, "The examination is passed, Tianshi Shu is taking you as a disciple!" Behind them, a small herding beast slowly chewed on fresh grass, with a brand-new iron ruler and a silver kite tied to its back. The strong wind pushed him toward the crowd, bells tinkling in the whistling gale that seemed to split the world open.[NEWLINE]He leaped down the slope and began to run along the canal of plot Yi-Wei, trailing a gust of silver wind.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_RANDERION_ARK_WANQING_ANY">
+			<Text>Really? To receive your recognition... I am very happy. Since we have exchanged "Visiting Scholar Certificates," I will surely stand with you in these fields, no matter how great the storm.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_RANDERION_ARK_WANQING_ANY">
+			<Text>It's alright, let's start over. Just like an experimental error, I haven't reached a conclusion that satisfies you yet... I will continue my dedicated pursuit until this sincerity of "walking together" takes root and sprouts.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_RANDERION_ARK_WANQING_ANY">
+			<Text>I've observed for a long time; the land here hasn't been abandoned, and people don't waste much food... So I think we are walking the same path, right?</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_RANDERION_ARK_WANQING_ANY">
+			<Text>This feeling of being trusted... is like a seed finding the place where the wind rises. I will work hard to guard this friendship and never let a companion who trusts me go hungry.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_RANDERION_ARK_WANQING_ANY">
+			<Text>I'm sorry, the current preliminary environmental survey shows there are still some... "omissions" between us. To avoid incorrect experimental conclusions, I must decline for now.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_RANDERION_ARK_WANQING_ANY">
+			<Text>You actually... trampled the fields everyone worked so hard to plant? Since you insist on destroying this passed-down ideal, the students of the Tianshi Mansion will never back down!</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_RANDERION_ARK_WANQING_ANY">
+			<Text>Though I am not skilled at fighting, for the land behind me and the hungry people... I will stay and guard this place until the area is confirmed safe!</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_RANDERION_ARK_WANQING_ANY">
+			<Text>As long as the land remains, hope remains. I hope those who come after can keep up and take these seeds to a place where they can take root and sprout.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_HUMAN_LEADER_RANDERION_ARK_WANQING_ANY">
+			<Text>Even if I fall, as long as the sweat of millions can irrigate a result... I don't need to be the one to see the harvest. I know someone will carry on...</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_RANDERION_ARK_WANQING_ANY">
+			<Text>Welcome to our camp. These are freshly picked fruits and vegetables; they taste much better than those outside. While I can't decide on large-scale trade, I can certainly treat everyone to a full meal.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_RANDERION_ARK_WANQING_ANY">
+			<Text>Sorry, our current grain reserves cannot accommodate too many guests. And... Teacher said before that accepting things from outsiders recklessly makes it easy to lose your footing; one must maintain a steady center of gravity.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_RANDERION_ARK_WANQING_ANY">
+			<Text>I have sent someone with experimental seeds from Dahuang City and categorized data. If you don't mind, could we set up a detailed system over there?</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_RANDERION_ARK_WANQING_ANY">
+			<Text>Your actions have led to a serious "environmental error"! Ignoring the suffering of the people and tolerating waste... I can never accept such a wrong result!</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_RANDERION_ARK_WANQING_ANY">
+			<Text>Who—ah, sorry, were you speaking? If you believe my ideals are merely a form of obsession, then I can only continue my "dedicated pursuit."</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_RANDERION_ARK_WANQING_ANY">
+			<Text>Hello, I am Wanqing. My name was chosen by my teacher from an experimental rice variety... Although I am just an ordinary technician, I will work hard so more people can survive. Please guide me.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_RANDERION_ARK_WANQING_ANY">
+			<Text>Nice to meet you. Your territory seems to be governed very orderly. If you have time, I would be happy to invite you over to discuss ideals that could benefit the world for generations.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_RANDERION_ARK_WANQING_ANY">
+			<Text>Our territories are adjacent, like two neighboring test fields. As long as we avoid the path of disasters and support each other, we can surely grow healthy crops.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_GREETING_LEADER_RANDERION_ARK_WANQING_ANY">
+			<Text>Hello. Today the clouds are high and the sky is clear, a perfect day for field observations. Are there any documents you need me to help organize?</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_RANDERION_ARK_WANQING_ANY">
+			<Text>Seeing everyone here working hard to help refugees on this land survive, I feel... we are walking the same path.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_LEADER_RANDERION_ARK_WANQING_REASON_ANY">
+			<Text>Your cherishing of the land and your persistence in "no waste" deeply move me. This is more precious than any visiting scholar certificate from the Tianshi Mansion.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_EXIT_LEADER_RANDERION_ARK_WANQING_ANY">
+			<Text>There are some things... I feel you haven't handled quite properly. Though I shouldn't overstep, if one strays from the original intention of serving the people, what is the point of learning?</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_LEADER_RANDERION_ARK_WANQING_REASON_ANY">
+			<Text>If you continue to ignore the hunger of the people, the rift between us will be deeper than the chasm between Dahuang City and the outside world.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_RANDERION_ARK_WANQING_ANY">
+			<Text>An alliance? Okay! I will provide logistics and test field support as a consultant. As long as we are united, there is no famine season we cannot overcome.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_RANDERION_ARK_WANQING_ANY">
+			<Text>Peace is like sweet rain... wonderful. Please watch your step and don't trample those newly growing seedlings. We should spend our time on more meaningful cultivation.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_RANDERION_ARK_WANQING_ANY">
+			<Text>Stopping now would cause an error in our previous efforts. To ensure everyone truly suffers no more, I must persist until the end.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_RANDERION_ARK_WANQING_ANY">
+			<Text>Please, no more fighting. Success is built on thousands of failures, while war only takes away seeds and leaves nothing behind. Can we solve this another way?</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_RANDERION_ARK_WANQING_ANY">
+			<Text>You may pass through here; I have already posted directional labels. But please remember to "tread lightly" and not disturb the crops as they are filling with grain.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_RANDERION_ARK_WANQING_ANY">
+			<Text>Sorry, the current environment is extremely complex. To prevent your troops from losing their way and to avoid impacting our planting, please take a detour.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_RANDERION_ARK_WANQING_ANY">
+			<Text>We are looking for the place where the wind rises to sow seeds. We promise not to disturb anything while passing through your territory. Could you grant us passage?</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_RANDERION_ARK_WANQING_ANY">
+			<Text>Military scale isn't the standard that decides everything. As long as our footing is firm and our center of gravity is steady, we can hold our land even against a gale.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_RANDERION_ARK_WANQING_ANY">
+			<Text>Is this a mutually beneficial proposal? As long as it's to help more people survive, students of the Tianshi Mansion are happy to support such a plan.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_RANDERION_ARK_WANQING_ANY">
+			<Text>I'm sorry... I consulted with my teacher, and the risks of this deal are disproportionate to the rewards. It might cause errors in our survival plan, so I cannot agree.</Text>
+		</Row>
+
+	</BaseGameText>
+
+
+
+
+
+
+
+
+	<!--
+		<Row Tag="LOC_CITY_NAME_ARK_WANQING_CITY_3" Language="zh_Hans_CN">
+			<Text>防涝三号</Text>
+		</Row>
+
+		<Row Tag="LOC_CITY_NAME_ARK_WANQING_CITY_8" Language="zh_Hans_CN">
+			<Text>早优八号</Text>
+		</Row>
+
+		<Row Tag="LOC_CITY_NAME_ARK_WANQING_CITY_11" Language="zh_Hans_CN">
+			<Text>抗冻十一</Text>
+		</Row>
+
+		<Row Tag="LOC_CITY_NAME_ARK_WANQING_CITY_0" Language="zh_Hans_CN">
+			<Text>丰穗零号</Text>
+		</Row>
+
+		<Row Tag="LOC_CITY_NAME_ARK_WANQING_CITY_1" Language="zh_Hans_CN">
+			<Text>稳产一号</Text>
+		</Row>
+
+		<Row Tag="LOC_CITY_NAME_ARK_WANQING_CITY_2" Language="zh_Hans_CN">
+			<Text>香粳二号</Text>
+		</Row>
+
+		<Row Tag="LOC_CITY_NAME_ARK_WANQING_CITY_4" Language="zh_Hans_CN">
+			<Text>耐盐四号</Text>
+		</Row>
+
+		<Row Tag="LOC_CITY_NAME_ARK_WANQING_CITY_5" Language="zh_Hans_CN">
+			<Text>润禾五号</Text>
+		</Row>
+
+		<Row Tag="LOC_CITY_NAME_ARK_WANQING_CITY_6" Language="zh_Hans_CN">
+			<Text>嘉优六号</Text>
+		</Row>
+
+		<Row Tag="LOC_CITY_NAME_ARK_WANQING_CITY_7" Language="zh_Hans_CN">
+			<Text>硕谷七号</Text>
+		</Row>
+
+		<Row Tag="LOC_CITY_NAME_ARK_WANQING_CITY_9" Language="zh_Hans_CN">
+			<Text>清粳九号</Text>
+		</Row>
+
+		<Row Tag="LOC_CITY_NAME_ARK_WANQING_CITY_10" Language="zh_Hans_CN">
+			<Text>沃稻十号</Text>
+		</Row>
+
+		<Row Tag="LOC_CITY_NAME_ARK_WANQING_CITY_12" Language="zh_Hans_CN">
+			<Text>泽穗十二</Text>
+		</Row>
+		-->
+
 </GameData>

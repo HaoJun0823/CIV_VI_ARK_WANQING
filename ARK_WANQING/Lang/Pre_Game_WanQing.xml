@@ -4,4 +4,101 @@
 <!-- DateCreated: 8/9/2025 7:12:12 PM -->
 <GameData>
 
+	<LocalizedText>
+
+		<Row Tag="LOC_LEADER_RANDERION_ARK_WANQING_NAME" Language="zh_Hans_CN">
+			<Text>禾生</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_LEADER_RANDERION_ARK_WANQING_NAME" Language="zh_Hans_CN">
+			<Text>良田万顷</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_LEADER_RANDERION_ARK_WANQING_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>禾生在场时，所有文明获得25%食物加成。[NEWLINE]农场+5食物，+4科学，黄金时代+9艺术，黑暗时代+7生产力。[NEWLINE]每回合开始时，所有单位基于首都的距离获得额外的移动力，每10格+1。[NEWLINE]每4回合为1周期，每个回合开始会依次根据基数（基数：周期轮数+任意状态农事司数量【例：已经完成、正在建造、正在修复、被掠夺、损毁状态等】）触发春夏秋冬效果。[NEWLINE]春：获得当前维护费*基数的金币，平均分配给市政研究与科学研究。[NEWLINE]夏：每座城市获得人口*基数的生产力，若城市没有进行生产，则获得等量金币。[NEWLINE]秋：所有单位得到基数点治疗，并且获得基数点经验。[NEWLINE]冬：获得基数点影响力与外交决议。</Text>
+		</Row>
+
+		<Row Tag="LOC_UNIT_INTERN_TIANSHI_NAME" Language="zh_Hans_CN">
+			<Text>实习天师</Text>
+		</Row>
+
+		<Row Tag="LOC_UNIT_INTERN_TIANSHI_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>特色单位，替代侦察兵，拥有更强的能力，可以远程攻击。</Text>
+		</Row>
+
+		<Row Tag="LOC_DISTRICT_WANQING_SPECIAL_NAME" Language="zh_Hans_CN">
+			<Text>农事司</Text>
+		</Row>
+
+		<Row Tag="LOC_DISTRICT_WANQING_SPECIAL_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>特色区域，由灌溉解锁，提供住房，宜居度，人口，工作岗位，工作人口提供额外生产力。[NEWLINE]相邻的农场提供额外科学，相邻的农事司提供额外文化。</Text>
+		</Row>
+		
+
+	</LocalizedText>
+
+	<LocalizedText>
+
+		<Row Tag="LOC_LEADER_RANDERION_ARK_WANQING_NAME" Language="zh_Hant_HK">
+			<Text>禾生</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_LEADER_RANDERION_ARK_WANQING_NAME" Language="zh_Hant_HK">
+			<Text>良田萬頃</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_LEADER_RANDERION_ARK_WANQING_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>禾生在場時，所有文明獲得25%食物加成。[NEWLINE]農場+5食物，+4科學，黃金時代+9藝術，黑暗時代+7生產力。[NEWLINE]每回合開始時，所有單位基於首都的距離獲得額外的移動力，每10格+1。[NEWLINE]每4回合為1週期，每個回合開始會依次根據基數（基數：週期輪數+任意狀態農事司數量【例：已經完成、正在建造、正在修復、被掠奪、損毀狀態等】）觸發春夏秋冬效果。[NEWLINE]春：獲得當前維護費*基數的金幣，平均分配給市政研究與科學研究。[NEWLINE]夏：每座城市獲得人口*基數的生產力，若城市沒有進行生產，則獲得等量金幣。[NEWLINE]秋：所有單位得到基數點治療，並且獲得基數點經驗。[NEWLINE]冬：獲得基數點影響力與外交決議。</Text>
+		</Row>
+
+		<Row Tag="LOC_UNIT_INTERN_TIANSHI_NAME" Language="zh_Hant_HK">
+			<Text>實習天師</Text>
+		</Row>
+
+		<Row Tag="LOC_UNIT_INTERN_TIANSHI_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>特色單位，替代偵察兵，擁有更強的能力，可以遠程攻擊。</Text>
+		</Row>
+
+		<Row Tag="LOC_DISTRICT_WANQING_SPECIAL_NAME" Language="zh_Hant_HK">
+			<Text>農事司</Text>
+		</Row>
+
+		<Row Tag="LOC_DISTRICT_WANQING_SPECIAL_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>特色區域，由灌溉解鎖，提供住房，宜居度，人口，工作崗位，工作人口提供額外生產力。[NEWLINE]相鄰的農場提供額外科學，相鄰的農事司提供額外文化。</Text>
+		</Row>
+
+	</LocalizedText>
+
+	<BaseGameText>
+
+		<Row Tag="LOC_LEADER_RANDERION_ARK_WANQING_NAME">
+			<Text>Hesheng</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_LEADER_RANDERION_ARK_WANQING_NAME">
+			<Text>Ten Thousand Hectares of Fertile Fields</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_LEADER_RANDERION_ARK_WANQING_DESCRIPTION">
+			<Text>When Hesheng is present, all civilizations receive a 25% Food bonus.[NEWLINE]Farms provide +5 Food and +4 Science; +9 Art during Golden Ages, and +7 Production during Dark Ages.[NEWLINE]At the start of each turn, all units gain extra Movement based on their distance from the Capital (+1 for every 10 tiles).[NEWLINE]Every 4 turns constitute a cycle. At the start of each turn, the effects of Spring, Summer, Autumn, and Winter are triggered sequentially based on a Base Value (Base Value = Cycle Round + Number of Nongshi Departments in any state [e.g., completed, under construction, being repaired, pillaged, or destroyed]).[NEWLINE]Spring: Gain Gold equal to current Maintenance Cost * Base Value, distributed equally between Civic and Scientific research.[NEWLINE]Summer: Each city gains Production equal to Population * Base Value; if a city is not producing anything, gain an equivalent amount of Gold instead.[NEWLINE]Autumn: All units receive healing and Experience points equal to the Base Value.[NEWLINE]Winter: Gain Influence points and Diplomatic Favors equal to the Base Value.</Text>
+		</Row>
+
+		<Row Tag="LOC_UNIT_INTERN_TIANSHI_NAME">
+			<Text>Intern Tianshi</Text>
+		</Row>
+
+		<Row Tag="LOC_UNIT_INTERN_TIANSHI_DESCRIPTION">
+			<Text>Unique unit that replaces the Scout. Possesses stronger capabilities and is capable of ranged attacks.</Text>
+		</Row>
+
+		<Row Tag="LOC_DISTRICT_WANQING_SPECIAL_NAME">
+			<Text>Nongshi Department</Text>
+		</Row>
+
+		<Row Tag="LOC_DISTRICT_WANQING_SPECIAL_DESCRIPTION">
+			<Text>Unique district unlocked by Irrigation. Provides Housing, Amenities, Population, and Citizen slots. Working citizens provide extra Production.[NEWLINE]Adjacent Farms provide extra Science, and adjacent Nongshi Departments provide extra Culture.</Text>
+		</Row>
+
+	</BaseGameText>
+	
 </GameData>

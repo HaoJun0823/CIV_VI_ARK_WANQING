@@ -2,15 +2,14 @@
 <Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
-    <Name>ARK WANQING</Name>
+    <Name>ArkNight - WanQing Leader</Name>
     <Guid>6f8c903a-52ff-4572-9ef6-9db72c06e881</Guid>
     <ProjectGuid>5dba78a0-2154-4e0b-84e3-4d9b667ea70a</ProjectGuid>
     <ModVersion>1</ModVersion>
-    <Teaser>This is a brief description of the mod.</Teaser>
-    <Description>This is a brief description of the mod.</Description>
-    <Authors>HaoJun0823</Authors>
-    <SpecialThanks>
-    </SpecialThanks>
+    <Teaser>Let Everyone Be Fed!</Teaser>
+    <Description>Add WanQing Leader From ArkNight.</Description>
+    <Authors>Randerion(HaoJun0823)</Authors>
+    <SpecialThanks>Players,Modders,ArkNight, and more.</SpecialThanks>
     <AffectsSavedGames>true</AffectsSavedGames>
     <SupportsSinglePlayer>true</SupportsSinglePlayer>
     <SupportsMultiplayer>true</SupportsMultiplayer>
@@ -21,8 +20,10 @@
 </Associations>]]></AssociationData>
     <AssemblyName>ARK_WANQING</AssemblyName>
     <RootNamespace>ARK_WANQING</RootNamespace>
-    <FrontEndActionData><![CDATA[<FrontEndActions><UpdateDatabase id="PUD_WANQING" /><UpdateText id="PUL_WANQING" /><UpdateArt id="PUA_WANQING" /><UpdateColors id="PUC_WANQING" /><UpdateIcons id="PUI_WANQING" /><UpdateDatabase id="PUD_SIDE_WANQING_YAN"><Properties><LoadOrder>999</LoadOrder></Properties><File>SideLoad/Yan_Mod.sql</File></UpdateDatabase></FrontEndActions>]]></FrontEndActionData>
-    <InGameActionData><![CDATA[<InGameActions />]]></InGameActionData>
+    <ActionCriteriaData><![CDATA[<ActionCriteria><Criteria id="LeaderCriteria"><LeaderPlayable>StandardPlayers::LEADER_RANDERION_ARK_WANQING,Players:Expansion1_Players::LEADER_RANDERION_ARK_WANQING,Players:Expansion2_Players::LEADER_RANDERION_ARK_WANQING</LeaderPlayable></Criteria><Criteria id="LeaderCriteria_Expansion1"><LeaderPlayable>Players:Expansion1_Players::LEADER_RANDERION_ARK_WANQING</LeaderPlayable><RuleSetInUse>RULESET_EXPANSION_1</RuleSetInUse></Criteria><Criteria id="LeaderCriteria_Expansion2"><LeaderPlayable>Players:Expansion2_Players::LEADER_RANDERION_ARK_WANQING</LeaderPlayable><RuleSetInUse>RULESET_EXPANSION_2</RuleSetInUse></Criteria></ActionCriteria>]]></ActionCriteriaData>
+    <FrontEndActionData><![CDATA[<FrontEndActions><UpdateDatabase id="PUD_WANQING"><File>Pre/Leader_Config_WanQing.xml</File></UpdateDatabase><UpdateText id="PUL_WANQING"><File>Lang/Pre_Game_WanQing.xml</File></UpdateText><UpdateArt id="PUA_WANQING"><File>(Mod Art Dependency File)</File></UpdateArt><UpdateColors id="PUC_WANQING"><File>Res/Leader_WanQing_Color.xml</File></UpdateColors><UpdateIcons id="PUI_WANQING"><File>Res/Leader_WanQing_Icon.xml</File></UpdateIcons><UpdateDatabase id="PUD_SIDE_WANQING_YAN"><Properties><LoadOrder>999</LoadOrder></Properties><File>SideLoad/Yan_Mod.sql</File></UpdateDatabase></FrontEndActions>]]></FrontEndActionData>
+    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="IN_D_WANQING"><File>Game/Leader_Data_WanQing.xml</File><File>Game/WanQing_District.xml</File><File>Game/WanQing_Modifier.sql</File><File>Game/WanQing_Unit.xml</File></UpdateDatabase><UpdateText id="IN_T_WANQING"><File>Lang/Pre_Game_WanQing.xml</File><File>Lang/In_Game_WanQing.xml</File></UpdateText><AddGameplayScripts id="IN_S_WANQING"><File>Game/WanQing_Script.lua</File></AddGameplayScripts><UpdateArt id="IN_A_WANQING"><File>(Mod Art Dependency File)</File></UpdateArt><UpdateColors id="IN_C_WANQING"><File>Res/Leader_WanQing_Color.xml</File></UpdateColors><UpdateIcons id="IN_I_WANQING"><File>Res/Leader_WanQing_Icon.xml</File></UpdateIcons></InGameActions>]]></InGameActionData>
+    <Homepage>https://steamcommunity.com/id/HaoJun0823/</Homepage>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
     <OutputPath>.</OutputPath>
@@ -33,6 +34,7 @@
   <ItemGroup>
     <Folder Include="Lang" />
     <Folder Include="Game" />
+    <Folder Include="Res" />
     <Folder Include="SideLoad" />
     <Folder Include="Pre" />
   </ItemGroup>
@@ -59,6 +61,12 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="Pre\Leader_Config_WanQing.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Res\Leader_WanQing_Color.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Res\Leader_WanQing_Icon.xml">
       <SubType>Content</SubType>
     </Content>
     <Content Include="SideLoad\Yan_Mod.sql">
