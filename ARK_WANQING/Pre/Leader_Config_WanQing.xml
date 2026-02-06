@@ -12,13 +12,14 @@
 			 CivilizationName="LOC_CIVILIZATION_CHINA_NAME"
 			 CivilizationType="CIVILIZATION_CHINA"
 			 LeaderAbilityDescription="LOC_TRAIT_LEADER_RANDERION_ARK_WANQING_DESCRIPTION"
-			 LeaderAbilityIcon="ICON_LEADER_RANDERION_ARK_WANQING_RED"
+			 LeaderAbilityIcon="ICON_LEADER_RANDERION_ARK_WANQING"
 			 LeaderAbilityName="LOC_TRAIT_LEADER_RANDERION_ARK_WANQING_NAME"
 			 LeaderIcon="ICON_LEADER_RANDERION_ARK_WANQING"
 			 LeaderName="LOC_LEADER_RANDERION_ARK_WANQING_NAME"
 			 LeaderType="LEADER_RANDERION_ARK_WANQING"
 			 Portrait="LEADER_RANDERION_ARK_WANQING_NETRUAL_PREGAME_SMALL"
-			 Domain="Players:Expansion2_Players"/>
+			 Domain="Players:Expansion2_Players"
+			 PortraitBackground="Bg_sui_WQ"/>
 	</Players>
 
 	<PlayerItems>

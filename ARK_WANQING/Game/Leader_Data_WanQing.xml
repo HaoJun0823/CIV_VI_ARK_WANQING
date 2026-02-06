@@ -44,11 +44,11 @@
 		<Row AgendaType="AGENDA_LEADER_RANDERION_ARK_WANQING" TraitType="TRAIT_AGENDA_LEADER_RANDERION_ARK_WANQING"/>
 	</AgendaTraits>
 	<LoadingInfo>
-		<Row LeaderType="LEADER_RANDERION_ARK_WANQING" ForegroundImage="LEADER_WANQING_LOADING" PlayDawnOfManAudio="0" LeaderText="LOC_LOADING_INFO_LEADER_RANDERION_ARK_WANQING_MEETING"/>
+		<Row LeaderType="LEADER_RANDERION_ARK_WANQING" ForegroundImage="LEADER_WANQING_LOADING" BackgroundImage="Bg_rhodes_flower_WQ" PlayDawnOfManAudio="0" LeaderText="LOC_LOADING_INFO_LEADER_RANDERION_ARK_WANQING_MEETING"/>
 	</LoadingInfo>
-	<!--<DiplomacyInfo>
-		<Row Type="LEADER_RANDERION_ARK_WANQING" BackgroundImage=""/>
-	</DiplomacyInfo>-->
+	<DiplomacyInfo>
+		<Row Type="LEADER_RANDERION_ARK_WANQING" BackgroundImage="Bg_yan_WQ"/>
+	</DiplomacyInfo>
 
 
 	<CivilizationLeaders>
