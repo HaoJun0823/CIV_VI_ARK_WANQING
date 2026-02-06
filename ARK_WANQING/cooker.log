@@ -9,7 +9,7 @@ Starting 'TB'
 ****** Log from Geometry: 'DIS_Mbanza_Construction_Base_DECAL' ********
 --------------
 Geo DIS_Mbanza_Construction_Base_DECAL Mesh Decal_ANC_FadeOut047 : 10 vertices removed by tangent merger.
-Load finished for: 'TB' in 0.041 seconds
+Load finished for: 'TB' in 0.042 seconds
 Asset "DIS_Wanqing" has AttachmentPoint "DIS_Mbanza_Pot_Blue004" on a bone with non-uniform scaling (1.436, 1.436, 1.412) (1/34)
 Asset "DIS_Wanqing" has AttachmentPoint "DIS_Mbanza_Pot_Blue003" on a bone with non-uniform scaling (0.961, 0.961, 0.945) (2/36)
 Asset "DIS_Wanqing" has AttachmentPoint "DIS_Mbanza_Pot_Blue001" on a bone with non-uniform scaling (1.436, 1.436, 1.412) (3/39)
@@ -26,7 +26,7 @@ Asset "DIS_Wanqing" has AttachmentPoint "VIL_Tribal_Thatch_Torch_A006" on a bone
 Asset "DIS_Wanqing" has AttachmentPoint "VIL_Tribal_Thatch_Torch_A004" on a bone with non-uniform scaling (0.489, 0.489, 0.200) (14/68)
 Asset "DIS_Wanqing" has AttachmentPoint "VIL_Tribal_Thatch_Torch_A002" on a bone with non-uniform scaling (0.489, 0.489, 0.200) (15/69)
 Cook finished for: 'TB' in 0.001 seconds
-Disk write finished for: 'TB' in 0.099 seconds
+Disk write finished for: 'TB' in 0.094 seconds
 Cleanup finished for: 'TB' in 0.001 seconds
 XLP cook completed with success.
-Cook completed in 0.150 seconds
+Cook completed in 0.146 seconds
