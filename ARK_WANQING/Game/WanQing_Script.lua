@@ -129,11 +129,12 @@ function WanQingTurn()
     print("WanQing: Do Turn Start Event, Turn " .. Game.GetCurrentGameTurn())
     local turn = Game.GetCurrentGameTurn()
     local mod = (turn - 1) % 4 + 1 -- 确保mod值为1到4
+	local base = math.floor(turn / 4)
     local pPlayers = GetWQPlayers()
     
     -- 季节性事件
     for _, pPlayer in ipairs(pPlayers) do
-        local mul = CountDistrict(pPlayer)
+        local mul = CountDistrict(pPlayer) + base
         print("Player " .. pPlayer:GetID() .. " multiplier: " .. mul)
         if mod == 1 then
             Do_A(mul, pPlayer)
