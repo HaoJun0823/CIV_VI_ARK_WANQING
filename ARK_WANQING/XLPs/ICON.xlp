@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects..XLP>
+	<m_Version>
+		<major>1</major>
+		<minor>0</minor>
+		<build>0</build>
+		<revision>0</revision>
+	</m_Version>
+	<m_ClassName text="UITexture"/>
+	<m_PackageName text="ICON"/>
+	<m_Entries>
+		<Element>
+			<m_EntryID text="ICON_LEADER_RANDERION_ARK_WANQING_RED_256"/>
+			<m_ObjectName text="ICON_LEADER_RANDERION_ARK_WANQING_RED_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_RANDERION_ARK_WANQING_RED_32"/>
+			<m_ObjectName text="ICON_LEADER_RANDERION_ARK_WANQING_RED_32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_RANDERION_ARK_WANQING_RED_45"/>
+			<m_ObjectName text="ICON_LEADER_RANDERION_ARK_WANQING_RED_45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_RANDERION_ARK_WANQING_RED_48"/>
+			<m_ObjectName text="ICON_LEADER_RANDERION_ARK_WANQING_RED_48"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_RANDERION_ARK_WANQING_RED_50"/>
+			<m_ObjectName text="ICON_LEADER_RANDERION_ARK_WANQING_RED_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_RANDERION_ARK_WANQING_RED_55"/>
+			<m_ObjectName text="ICON_LEADER_RANDERION_ARK_WANQING_RED_55"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_RANDERION_ARK_WANQING_RED_64"/>
+			<m_ObjectName text="ICON_LEADER_RANDERION_ARK_WANQING_RED_64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_RANDERION_ARK_WANQING_RED_80"/>
+			<m_ObjectName text="ICON_LEADER_RANDERION_ARK_WANQING_RED_80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_RANDERION_ARK_WANQING_256"/>
+			<m_ObjectName text="ICON_LEADER_RANDERION_ARK_WANQING_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_RANDERION_ARK_WANQING_32"/>
+			<m_ObjectName text="ICON_LEADER_RANDERION_ARK_WANQING_32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_RANDERION_ARK_WANQING_45"/>
+			<m_ObjectName text="ICON_LEADER_RANDERION_ARK_WANQING_45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_RANDERION_ARK_WANQING_48"/>
+			<m_ObjectName text="ICON_LEADER_RANDERION_ARK_WANQING_48"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_RANDERION_ARK_WANQING_50"/>
+			<m_ObjectName text="ICON_LEADER_RANDERION_ARK_WANQING_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_RANDERION_ARK_WANQING_55"/>
+			<m_ObjectName text="ICON_LEADER_RANDERION_ARK_WANQING_55"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_RANDERION_ARK_WANQING_64"/>
+			<m_ObjectName text="ICON_LEADER_RANDERION_ARK_WANQING_64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_RANDERION_ARK_WANQING_80"/>
+			<m_ObjectName text="ICON_LEADER_RANDERION_ARK_WANQING_80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_TIANSHI_22"/>
+			<m_ObjectName text="ICON_UNIT_TIANSHI_22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_TIANSHI_256"/>
+			<m_ObjectName text="ICON_UNIT_TIANSHI_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_TIANSHI_32"/>
+			<m_ObjectName text="ICON_UNIT_TIANSHI_32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_TIANSHI_38"/>
+			<m_ObjectName text="ICON_UNIT_TIANSHI_38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_TIANSHI_50"/>
+			<m_ObjectName text="ICON_UNIT_TIANSHI_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_TIANSHI_80"/>
+			<m_ObjectName text="ICON_UNIT_TIANSHI_80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_RANDERION_ARK_WANQING_NETRUAL_PREGAME_SMALL"/>
+			<m_ObjectName text="LEADER_RANDERION_ARK_WANQING_NETRUAL_PREGAME_SMALL"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_WANQING_LOADING"/>
+			<m_ObjectName text="LEADER_WANQING_LOADING"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MOMENT_WANQING_D"/>
+			<m_ObjectName text="moment_farmer"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MOMENT_WANQING_U"/>
+			<m_ObjectName text="moment_tianshi"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_TIANSHI_FOW_22"/>
+			<m_ObjectName text="ICON_UNIT_TIANSHI_FOW_22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_TIANSHI_FOW_256"/>
+			<m_ObjectName text="ICON_UNIT_TIANSHI_FOW_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_TIANSHI_FOW_32"/>
+			<m_ObjectName text="ICON_UNIT_TIANSHI_FOW_32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_TIANSHI_FOW_38"/>
+			<m_ObjectName text="ICON_UNIT_TIANSHI_FOW_38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_TIANSHI_FOW_50"/>
+			<m_ObjectName text="ICON_UNIT_TIANSHI_FOW_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_TIANSHI_FOW_80"/>
+			<m_ObjectName text="ICON_UNIT_TIANSHI_FOW_80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="WANQING_D_FOW_128"/>
+			<m_ObjectName text="WANQING_D_FOW_128"/>
+		</Element>
+		<Element>
+			<m_EntryID text="WANQING_D_FOW_22"/>
+			<m_ObjectName text="WANQING_D_FOW_22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="WANQING_D_FOW_256"/>
+			<m_ObjectName text="WANQING_D_FOW_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="WANQING_D_FOW_32"/>
+			<m_ObjectName text="WANQING_D_FOW_32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="WANQING_D_FOW_38"/>
+			<m_ObjectName text="WANQING_D_FOW_38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="WANQING_D_FOW_50"/>
+			<m_ObjectName text="WANQING_D_FOW_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="WANQING_D_FOW_80"/>
+			<m_ObjectName text="WANQING_D_FOW_80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="WANQING_D_128"/>
+			<m_ObjectName text="WANQING_D_128"/>
+		</Element>
+		<Element>
+			<m_EntryID text="WANQING_D_22"/>
+			<m_ObjectName text="WANQING_D_22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="WANQING_D_256"/>
+			<m_ObjectName text="WANQING_D_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="WANQING_D_32"/>
+			<m_ObjectName text="WANQING_D_32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="WANQING_D_38"/>
+			<m_ObjectName text="WANQING_D_38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="WANQING_D_50"/>
+			<m_ObjectName text="WANQING_D_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="WANQING_D_80"/>
+			<m_ObjectName text="WANQING_D_80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Bg_rhodes_flower_WQ"/>
+			<m_ObjectName text="Bg_rhodes_flower"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Bg_yan_WQ"/>
+			<m_ObjectName text="Bg_yan"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Bg_sui_WQ"/>
+			<m_ObjectName text="Bg_sui"/>
+		</Element>
+	</m_Entries>
+	<m_AllowedPlatforms>
+		<Element>WINDOWS</Element>
+		<Element>MACOS</Element>
+		<Element>IOS</Element>
+		<Element>LINUX</Element>
+		<Element>XBONE</Element>
+		<Element>PS4</Element>
+		<Element>SWITCH</Element>
+		<Element>STADIA</Element>
+	</m_AllowedPlatforms>
+</AssetObjects..XLP>
+
